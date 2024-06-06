@@ -1,9 +1,9 @@
 """
 Aplikasi Deteksi gempa
 """
-from gempa_terkini import exstratksi_data, tampilkan_data
+import gempa_terkini
 
 if __name__=='__main__':
     print('Aplikasi Utama')
-    result = exstratksi_data()
-    tampilkan_data(result)
+    result = gempa_terkini.exstraksi_data()
+    gempa_terkini.tampilkan_data(result)
